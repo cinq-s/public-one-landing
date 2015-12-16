@@ -129,7 +129,7 @@ var MyBetaList =
         //   }
         // });
         jQuery.getJSON('https://my.betali.st/subscribe?callback=?', params, function() {});
-        MyBetaList.showStep2();
+        setTimeout(MyBetaList.showStep2(), 2000);
       }
 
     });
